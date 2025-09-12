@@ -1,0 +1,352 @@
+@font-face {
+    font-family: 'AmaticSC-Bold';
+    src: url('../fonts/AmaticSC-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('../fonts/Josefin_Sans/static/JosefinSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'JosefinSansBold';
+    src: url('../fonts/Josefin_Sans/static/JosefinSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'JosefinSansSemiBold';
+    src: url('../fonts/Josefin_Sans/static/JosefinSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Optima-Bold';
+    src: url('../fonts/Optima/OPTIMA_B.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'Optima';
+    src: url('../fonts/Optima/OPTIMA.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sen-Bold';
+    src: url('../fonts/Sen/static/Sen-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url("../fonts/Avenir\ LT\ Std\ 35\ Light.otf") format("opentype");
+}
+
+body {
+    font-weight: 450;
+    font-size: 1.4rem;
+    background-color: #f6f1ed;
+    background-color: #EEE5DD;
+    color: #20303c !important;
+    font-family: Avenir sans-serif;
+}
+
+.font-optima {
+    font-family: Optima;
+    line-height: 1.5em;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+}
+
+
+.font-josefin {
+    font-family: JosefinSans;
+    line-height: 1.5em;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+}
+
+.font-avenir {
+    font-family: Avenir;
+    line-height: 1.5em;
+    font-size: 20px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-variant-alternates: normal;
+    font-size-adjust: none;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    font-variant-position: normal;
+    font-variant-emoji: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.03em;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'JosefinSans', sans-serif;
+    color: #EEE5DD !important;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'JosefinSans', sans-serif;
+    color: #302F51;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'JosefinSans', sans-serif;
+    color: #302F51;
+}
+
+.col-vaglin-center {
+    display: flex; 
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.subheader {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'JosefinSans', sans-serif;
+    color: #302F51;
+}
+
+.navbar-bg {
+    background-color: #fff !important;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    /*font-weight: 700;*/
+    font-family: 'JosefinSansSemiBold', sans-serif;
+}
+
+.nav-link-2 {
+    font-size: 1.7rem;
+    color: rgba(var(--bs-emphasis-color-rgb), 0.65);
+    font-family: 'JosefinSansSemiBold', sans-serif;
+}
+.nav-link-2:hover {
+    color: black;
+} 
+
+.navbar-link {
+    font-size: x-large;
+}
+
+.section-bg-gradient1 {
+    background: #F0D4D2;
+    background: linear-gradient(90deg, rgba(240, 212, 210, 1) 42%, rgba(252, 245, 199, 1) 87%);
+}
+
+a.nav-link {
+    position: relative;
+    color: rgba(var(--bs-emphasis-color-rgb), 0.65);
+}
+
+a.nav-link:hover {
+    color: black;
+}
+
+a.nav-link::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #2b2e30;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+a.nav-link:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+hr {
+    height: 3px;
+    background-color: darkgray;
+}
+
+.sidetext {
+    writing-mode: vertical-lr;
+    margin-top: 10rem;
+    font-family: 'JosefinSansSemiBold';
+    font-size: 2rem;
+}
+.sidetext-2 {
+    writing-mode: vertical-lr;
+    font-family: 'JosefinSansSemiBold';
+    font-size: 2.5rem;
+    color: #302F51;
+    margin-top: 200px;
+}
+
+.bannersection {
+    background-image: url("../img/dog_banner_2.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.bannercontent {
+    background-color: rgba(254, 199, 79, .86);
+    margin-left: 10%;
+    height: 100%;
+    width: 30%;
+    padding: 50px;
+}
+
+.bannersection2 {
+    background-image: url("../img/AdobeStock_403459323_Preview.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.bannercontent2 {
+    background-color: rgba(254, 199, 79, .86);
+    margin-left: 60%;
+    height: 100%;
+    width: 30%;
+    padding: 50px;
+}
+
+.banner-seperator {
+    border-top: 1px solid #302F51;
+    box-sizing: border-box;
+    height: 0;
+    width: 60%;
+}
+
+.bannercontent-fullwidth {
+    background-color: rgba(254, 199, 79, .86);
+    width: 100%;
+    padding: 0px;
+    margin-left: 0 !important;
+}
+
+.bannercontent-fulllwidth-textbox {}
+
+.mosaicsection {}
+
+.mosaic-img-box {}
+
+/*
+Dark Green #847c48    52 49 28
+Dark Blue  #57557d    34 33 49
+Orange     #f98d58    98 55 34
+    */
+.mosaic-text-box {}
+
+.mosaic-text-box-bright {
+    color: #ffffff;
+}
+
+.bg-dark-green {
+    background-color: #847c48;
+}
+
+.bg-dark-blue {
+    background-color: #57557d;
+}
+
+.bg-orange {
+    background-color: #f98d58;
+}
+
+.bg-yellow {
+    background-color: rgba(254, 199, 79) !important;
+}
+.bg-gray {
+    background-color: rgb(200, 200, 200) !important;
+}
+
+.hero-text {
+    color: #EEE5DD !important;
+    margin-left: 50%;
+    width: 30%;
+    padding-top: 100px;
+}
+
+.simplebanner {
+    text-align: center;
+    font-size: 30px;
+    width: 80%;
+}
+
+.mb-6 {
+    margin-bottom: 6rem;
+}
+
+.mt-6 {
+    margin-top: 6rem;
+}
+
+.my-6 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.paw {
+    transform: rotate(-75deg);
+}
+
+@media (max-width: 767px) {
+    .hero {
+        background-image: url("../img/AdobeStock_403459323_Preview.jpeg");
+        height: 379px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hero {
+        background-image: url("../img/AdobeStock_1660670215_Preview.jpeg");
+        height: 400px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .hero {
+        background-image: url("../img/AdobeStock_221259739_Preview.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+    }
+
+    .hero-2 {
+        background-image: url("../img/AdobeStock_221259739_Preview.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+        padding: 20px;
+    }
+
+    .hero-2-menu {
+        /*background-color: rgba(254, 199, 79, 1);*/
+        background-color: #EEE5DD;
+        height: 100px;
+        border: 0px;
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+}
