@@ -92,6 +92,12 @@ h4 {
     font-family: 'JosefinSans', sans-serif;
     color: #302F51;
 }
+h5 {
+    font-size: clamp(1rem, 2.1vw + 0.1rem, 1.4rem);
+    font-weight: 700;
+    font-family: 'JosefinSans', sans-serif;
+    color: #302F51;
+}
 
 .col-vaglin-center {
     display: flex; 
@@ -181,21 +187,87 @@ hr {
     margin-top: 200px;
 }
 
-.bannersection {
-    background-image: url("../img/dog_banner_2.avif");
+.hero-text {
+    color: #EEE5DD !important;
+    margin-left: 50%;
+    width: 30%;
+    padding-top: 100px;
+}
+
+.hero {
+    background-image: url("../img/AdobeStock_221259739_Preview.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    width: 100%;
 }
 
-.bannercontent {
-    background-color: rgba(254, 199, 79, .86);
-    margin-left: 10%;
-    height: 100%;
-    width: 30%;
-    padding: 50px;
+@media (min-width: 1200px) {
+    .bannersection {
+        background-image: url("../img/dog_banner_2.avif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+
+    .bannercontent {
+        background-color: rgba(254, 199, 79, .86);
+        margin-left: 10%;
+        height: 100%;
+        width: 30%;
+        padding: 50px;
+    }
 }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .bannersection {
+        background-image: url("../img/dog_banner_1.avif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+
+    .bannercontent {
+        background-color: rgba(254, 199, 79, .86);
+        margin-left: 5%;
+        height: 100%;
+        width: 37%;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+    .hero-text {
+        margin-left: 50%;
+        width: 40%;
+        padding-top: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .bannersection {
+        background-image: url("../img/dog_banner_0.avif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+
+    .bannercontent {
+        background-color: rgba(254, 199, 79, .86);
+        height: 100%;
+        width: 50%;
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+
+    .hero-text {
+        margin-left: 60%;
+        width: 40%;
+        padding-top: 60px;
+    }
+}
+
 
 .bannersection2 {
     background-image: url("../img/AdobeStock_403459323_Preview.jpeg");
@@ -269,13 +341,6 @@ Orange     #f98d58    98 55 34
     border-bottom: 1px solid lightgray;
 }
 
-.hero-text {
-    color: #EEE5DD !important;
-    margin-left: 50%;
-    width: 30%;
-    padding-top: 100px;
-}
-
 .simplebanner {
     text-align: center;
     font-size: 30px;
@@ -303,44 +368,3 @@ Orange     #f98d58    98 55 34
     transform: rotate(-75deg);
 }
 
-@media (max-width: 767px) {
-    .hero {
-        background-image: url("../img/AdobeStock_403459323_Preview.jpeg");
-        height: 379px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .hero {
-        background-image: url("../img/AdobeStock_1660670215_Preview.jpeg");
-        height: 400px;
-    }
-}
-
-@media (min-width: 1025px) {
-    .hero {
-        background-image: url("../img/AdobeStock_221259739_Preview.jpeg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 500px;
-    }
-
-    .hero-2 {
-        background-image: url("../img/AdobeStock_221259739_Preview.jpeg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 700px;
-        padding: 20px;
-    }
-
-    .hero-2-menu {
-        /*background-color: rgba(254, 199, 79, 1);*/
-        background-color: #EEE5DD;
-        height: 100px;
-        border: 0px;
-        border-radius: 15px;
-        -moz-border-radius: 15px;
-        padding-left: 10px;
-        padding-top: 5px;
-    }
-}
