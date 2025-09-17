@@ -198,7 +198,8 @@ hr {
     background-image: url("../img/AdobeStock_221259739_Preview.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 480px;
+    max-width: 1200px;
 }
 
 @media (min-width: 1200px) {
@@ -216,6 +217,12 @@ hr {
         height: 100%;
         width: 30%;
         padding: 50px;
+    }
+
+    .hero-text {
+        margin-left: 50%;
+        width: 40%;
+        padding-top: 100px;
     }
 }
 
@@ -253,6 +260,37 @@ hr {
         width: 100%;
     }
 
+    .hero {
+        height: 400px;
+    }
+
+    .bannercontent {
+        background-color: rgba(254, 199, 79, .86);
+        height: 100%;
+        width: 50%;
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+
+    .hero-text {
+        margin-left: 55%;
+        padding-right:20px;
+        width: 40%;
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .bannersection {
+        background-image: url("../img/dog_banner_0.avif");
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .hero {
+        height: 500px;
+    }
+
     .bannercontent {
         background-color: rgba(254, 199, 79, .86);
         height: 100%;
@@ -263,6 +301,7 @@ hr {
 
     .hero-text {
         margin-left: 60%;
+        padding-right:20px;
         width: 40%;
         padding-top: 60px;
     }
@@ -345,6 +384,7 @@ Orange     #f98d58    98 55 34
     text-align: center;
     font-size: 30px;
     width: 80%;
+    max-width: 1200px;
 }
 
 .mb-6 {
