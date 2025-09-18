@@ -126,7 +126,6 @@ h5 {
 }
 
 .nav-link-2 {
-    font-size: 1.7rem;
     color: rgba(var(--bs-emphasis-color-rgb), 0.65);
     font-family: 'JosefinSansSemiBold', sans-serif;
 }
