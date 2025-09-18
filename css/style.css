@@ -78,7 +78,10 @@ h1 {
     color: #EEE5DD !important;
 }
 h2 {
-    text-align: center;
+    font-size: clamp(1.5rem, 5.3vw - 0.8rem, 2.5rem);
+    font-weight: 700;
+    font-family: 'JosefinSans', sans-serif;
+    color: #302F51;
 }
 h3 {
     font-size: clamp(1.5rem, 5.3vw - 0.8rem, 2.5rem);
@@ -203,10 +206,11 @@ hr {
 }
 
 .hero-mobile {
-    background-image: url("../img/AdobeStock_514051141_Preview_3.jpeg");
+    background-image: url("../img/AdobeStock_514051141_Preview_M.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 850px;
+    background-position: center;
+    height: 886px;
 }
     .hero-text-mobile {
         margin-left: 10%;
