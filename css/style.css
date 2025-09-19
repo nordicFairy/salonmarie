@@ -69,6 +69,25 @@ body {
     font-size: clamp(1rem, 1.4vw + 0.5rem, 1.6rem);
 }
 
+.bg-powder-dark {
+    background-color: #d0a38e;
+}
+.bg-powder-light {
+    background-color: #e9c9bc;
+}
+.bg-gradient-powder-dark-to-white {
+    background-image: linear-gradient(to bottom, #d0a38e, #e1b7b5, #e9ced7, #f0e7f0, #ffffff);
+}
+.bg-gradient-powder-light-to-white {
+    background-image: linear-gradient(to bottom, #e9c9bc, #f1d5d4, #f4e3e9, #f7f1f7, #ffffff);
+}
+.bg-gradient-powder-dark-to-bg {
+    background-image: linear-gradient(to bottom, #d0a38e, #d7b4a0, #dec4b3, #e6d5c8, #eee5dd);
+}
+.bg-gradient-powder-light-to-bg {
+    background-image: linear-gradient(to bottom, #e9c9bc, #ead0c3, #ebd7cb, #ecded4, #eee5dd);
+}
+
 
 /* headers */
 h1 {
@@ -100,6 +119,10 @@ h5 {
     font-weight: 700;
     font-family: 'JosefinSans', sans-serif;
     color: #302F51;
+}
+
+.text-justify {
+    text-align: justify
 }
 
 .col-vaglin-center {
