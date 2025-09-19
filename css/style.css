@@ -115,6 +115,9 @@ h5 {
     color: #302F51;
 }
 
+.navbar {
+    height: 100px;
+}
 .navbar-bg {
     background-color: #fff !important;
 }
@@ -205,17 +208,25 @@ hr {
 }
 
 .hero-mobile {
-    background-image: url("../img/AdobeStock_514051141_Preview_M.jpeg");
+    background-image: url("../img/AdobeStock_514051141_Preview_M2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 886px;
 }
-    .hero-text-mobile {
-        margin-left: 10%;
-        width: 60%;
-        padding-top: 30px;
-    }
+.hero-text-mobile {
+    margin-left: 10%;
+    width: 90%;
+    padding-top: 30px;
+    color: #302F51;
+}
+.hero-text-mobile-2 {
+    position: absolute;
+    top: 130px;
+    width: 90%;
+    padding-left: 30px;
+    color: #302F51;
+}
 
 @media (min-width: 1200px) {
     .bannersection {
